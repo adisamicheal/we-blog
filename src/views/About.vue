@@ -12,4 +12,20 @@
       deserunt mollit anim id est laborum.
     </p>
   </div>
+
 </template>
+<style scoped>
+    .about {
+      padding: 30px 100px;
+      height: 100vh;
+    }
+    p {
+      line-height: 25px;
+      margin-top: 50px;
+    }
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 20px;
+  }
+}
+</style>

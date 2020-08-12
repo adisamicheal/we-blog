@@ -111,4 +111,10 @@ hr {
     border: 1px solid gray;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+    .post_body {
+        width: 90%;
+        padding: 20px;
+    }
+}
 </style>

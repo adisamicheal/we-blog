@@ -150,9 +150,22 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .typewriter-text {
+    font-size: 24px;
+  }
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
   .section-2 {
     padding: 20px;
     flex-direction: column;
+  }
+  .reverse {
+    flex-direction: column-reverse;
   }
 }
 </style>

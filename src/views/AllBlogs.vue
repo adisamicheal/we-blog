@@ -72,4 +72,9 @@ export default {
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    .blog_body {
+        width: 90%;
+    }
+}
 </style>>

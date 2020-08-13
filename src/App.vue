@@ -39,10 +39,13 @@ export default {
 .pixel-spinner {
   height: 70px;
   width: 70px;
-  display: flex;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  /* display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .pixel-spinner .pixel-spinner-inner {

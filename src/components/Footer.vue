@@ -18,7 +18,7 @@
                 10.5099 18.0934 6.1718C18.1801 5.80435 18.23 5.42313 18.23 5.02918Z" fill="#78B159">
                 </path>
             </svg> 
-            <span>by Micheal Adisa</span></li>
+            <span> by <a href="https://twitter.com/michellead" target="blank"> Micheal Adisa</a></span></li>
         </ul>
       </div>
     </div>
@@ -55,6 +55,10 @@ export default {
   display: flex;
   justify-content: space-around;
   margin: 16px 0;
+}
+.address a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .links ul > li,
 .links ul > li > a {

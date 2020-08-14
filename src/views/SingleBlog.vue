@@ -3,7 +3,7 @@
       <div v-if="blog.length != 0 && comments.length != 0">
         <div class="post">
             <h3>{{blog.title | capitalize}}</h3>
-            <img src="../assets/blog-read.jpg" alt="">
+            <img src="../assets/blog-read.jpg" alt="blog-image">
             <p>{{blog.body | capitalize}}</p>
         </div>
         <p class="title">Comments <span>({{this.getTotalComments}})</span> <img src="../assets/comment.svg" alt="comment"></p>
@@ -234,6 +234,12 @@ hr {
     .post_body {
         width: 90%;
         padding: 20px;
+    }
+    .post img {
+        width: 100%;
+    }
+    .form {
+        padding: 20px 0;
     }
 }
 </style>
